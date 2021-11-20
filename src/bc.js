@@ -16,7 +16,10 @@ function pow(a, b) {
 
 function mult(a, b) {
     return a * b;
+}
 
+function max(a, b) {
+    return a > b ? a : b;
 }
 
 module.exports = {
@@ -25,4 +28,5 @@ module.exports = {
     div,
     pow,
     mult,
+    max,
 };
